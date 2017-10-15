@@ -1,0 +1,14 @@
+.footer {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background: #ededed;
+  text-align: center;
+  padding: 1em;
+  border-top: #e0e0e0 solid 1px;
+}
+
+.footer p {
+  margin: 0;
+}
