@@ -6,11 +6,11 @@ import { ProjectsComponent } from '../projects/projects.component';
 import { ContactComponent } from '../contact/contact.component';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   redirectTo: '/about',
-  //   pathMatch: 'full'
-  // },
+  {
+    path: '',
+    redirectTo: '/projects',
+    pathMatch: 'full'
+  },
   {
     path: 'about',
     component: AboutComponent
