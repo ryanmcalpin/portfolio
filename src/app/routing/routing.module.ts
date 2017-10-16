@@ -12,15 +12,15 @@ const routes: Routes = [
   //   pathMatch: 'full'
   // },
   {
-    path: 'portfolio/about',
+    path: 'about',
     component: AboutComponent
   },
   {
-    path: 'portfolio/projects',
+    path: 'projects',
     component: ProjectsComponent
   },
   {
-    path: 'portfolio/contact',
+    path: 'contact',
     component: ContactComponent
   }
 ]
