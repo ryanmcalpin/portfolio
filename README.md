@@ -1,1 +1,1 @@
-<a href="https://ryanmcalpin.github.io/portfolio/projects">Live Version</a>
+<a href="https://ryanmcalpin.github.io/portfolio/projects" target="_blank">Live Version</a>
