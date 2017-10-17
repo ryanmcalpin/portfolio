@@ -1,3 +1,12 @@
 div.card {
   margin-bottom: 1em;
 }
+
+div.card-footer {
+  width: 15em;
+  margin-left: calc(100% - 15em);
+  padding: .5em 1em;
+  background: linear-gradient(to left, lightgrey, white);
+  border-image: linear-gradient(to left, grey, white) 1 100%;
+  border-image-slice: 1;
+}
