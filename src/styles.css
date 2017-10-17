@@ -8,3 +8,8 @@ body {
   position: relative;
   min-height: 100%;
 }
+
+
+.clickable:hover {
+  cursor: pointer;
+}

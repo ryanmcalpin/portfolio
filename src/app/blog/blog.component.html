@@ -1,4 +1,4 @@
-<div *ngFor="let post of posts; index as i" class="card" (click)="goToPost(i)">
+<div *ngFor="let post of posts; index as i" class="card clickable" (click)="goToPost(i)">
   <div class="card-body">
     <h4 class="card-title">{{post.title}}</h4>
     <p class="card-text">{{post.lede}}</p>
