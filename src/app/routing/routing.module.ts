@@ -4,12 +4,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from '../about/about.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { ContactComponent } from '../contact/contact.component';
+import { BlogComponent } from '../blog/blog.component';
+import { BlogDetailComponent } from '../blog-detail/blog-detail.component';
 
 const routes: Routes = [
   {
     path: '',
     redirectTo: '/projects',
     pathMatch: 'full'
+  },
+  {
+    path: 'blog',
+    component: BlogComponent
   },
   {
     path: 'about',
@@ -22,6 +28,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'blog/:i',
+    component: BlogDetailComponent
   }
 ]
 
