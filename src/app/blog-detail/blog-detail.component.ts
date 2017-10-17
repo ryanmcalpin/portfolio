@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+
+import { BlogService } from '../blog.service';
 
 @Component({
   selector: 'app-blog-detail',
@@ -6,10 +9,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog-detail.component.css']
 })
 export class BlogDetailComponent implements OnInit {
+  post: any;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute,
+              private blogService: BlogService,
+              private router: Router) { }
 
   ngOnInit() {
+    var i = this.router.url.slice(6);
+    this.post = this.blogService.getPost(i);
   }
 
 }

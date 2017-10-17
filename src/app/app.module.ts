@@ -8,8 +8,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { BlogComponent } from './blog/blog.component';
-import { BlogCardComponent } from './blog-card/blog-card.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
+
+import { BlogService } from './blog.service';
 
 @NgModule({
   declarations: [
@@ -19,14 +20,15 @@ import { BlogDetailComponent } from './blog-detail/blog-detail.component';
     ContactComponent,
     FooterComponent,
     BlogComponent,
-    BlogCardComponent,
     BlogDetailComponent,
   ],
   imports: [
     BrowserModule,
     RoutingModule
   ],
-  providers: [],
+  providers: [
+    BlogService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
