@@ -12,7 +12,21 @@ nav {
   background: #ededed !important;
   border-bottom: #e0e0e0 solid 1px;
 }
+
 nav button {
   background: #f7f7f7 !important;
   border-color: #c1c1c1;
+}
+
+#route-title-container {
+  position: absolute;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 88px;
+}
+
+@media (min-width: 576px) {
+  #route-title-container {
+    display: none;
+  }
 }

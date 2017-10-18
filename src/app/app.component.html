@@ -3,6 +3,14 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+  <div id="route-title-container">
+    <p *ngIf="checkNav('/')">Home</p>
+    <p *ngIf="checkNav('/projects')">Projects</p>
+    <p *ngIf="checkNav('/blog')">Blog</p>
+    <p *ngIf="checkNav('/about')">About</p>
+    <p *ngIf="checkNav('/contact')">Contact</p>
+  </div>
+
   <div class="collapse navbar-collapse items" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" [ngClass]="checkNav('/')">
