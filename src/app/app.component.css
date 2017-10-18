@@ -21,7 +21,7 @@ nav button {
 #ryan {
   position: absolute;
   text-align: right;
-  margin-top: 10px;
+  margin-top: 8px;
   width: calc(100% - 32px - 60px);
   margin-left: 30px;
 }
@@ -33,7 +33,7 @@ nav button {
 #route-title-container {
   position: absolute;
   width: calc(100% - 176px);
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 @media (min-width: 576px) {
