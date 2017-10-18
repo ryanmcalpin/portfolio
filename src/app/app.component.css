@@ -18,15 +18,38 @@ nav button {
   border-color: #c1c1c1;
 }
 
+#ryan {
+  position: absolute;
+  text-align: right;
+  margin-top: 10px;
+  width: calc(100% - 32px - 60px);
+  margin-left: 30px;
+}
+
+#ryan a {
+  color: black;
+}
+
 #route-title-container {
   position: absolute;
-  width: 100%;
+  width: calc(100% - 176px);
   margin-top: 10px;
-  margin-left: 88px;
 }
 
 @media (min-width: 576px) {
   #route-title-container {
+    display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  #route-title-container {
+    display: none;
+  }
+}
+
+@media (max-width: 200px) {
+  #ryan {
     display: none;
   }
 }
