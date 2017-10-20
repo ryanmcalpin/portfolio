@@ -19,11 +19,8 @@ nav button {
 }
 
 #ryan {
-  position: absolute;
   text-align: right;
-  margin-top: 8px;
-  width: calc(100% - 32px - 60px);
-  margin-left: 30px;
+  float: right;
 }
 
 #ryan a {
@@ -31,9 +28,13 @@ nav button {
 }
 
 #route-title-container {
+  margin-left: 78px;
   position: absolute;
-  width: calc(100% - 176px);
-  margin-top: 8px;
+  float: left;
+}
+
+#route-title-container p {
+  margin-bottom: 0px;
 }
 
 @media (min-width: 576px) {
