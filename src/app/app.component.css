@@ -20,7 +20,11 @@ nav button {
 
 #ryan {
   text-align: right;
-  float: right;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+  margin-top: 16px;
+  margin-right: 12px;
 }
 
 #ryan a {
@@ -28,9 +32,11 @@ nav button {
 }
 
 #route-title-container {
-  margin-left: 78px;
+  margin-left: 83px;
   position: absolute;
   float: left;
+  z-index: 10;
+  margin-top: 16px;
 }
 
 #route-title-container p {
