@@ -31,6 +31,10 @@ nav button {
   color: black;
 }
 
+#ryan a:hover {
+  text-decoration: none;
+}
+
 #route-title-container {
   margin-left: 83px;
   position: absolute;
