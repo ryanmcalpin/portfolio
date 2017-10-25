@@ -27,6 +27,16 @@ nav button {
   z-index: 10;
   margin-top: 16px;
   margin-right: 24px;
+
+  &.shown {
+    opacity: 1;
+    transition: opacity 350ms ease-in;
+  }
+
+  &.hidden {
+    opacity: .3;
+    transition: opacity 350ms ease-out;
+  }
 }
 
 #ryan a {
@@ -44,21 +54,22 @@ nav button {
   float: left;
   z-index: 10;
   margin-top: 16px;
+
+  &.shown {
+    opacity: 1;
+    transition: opacity 350ms ease-in;
+  }
+
+  &.hidden {
+    opacity: 0;
+    transition: opacity 350ms ease-out;
+  }
 }
 
 #route-title-container p {
   margin-bottom: 0px;
   cursor: default;
-}
-
-.shown {
-  opacity: .5;
-  transition: opacity .3s ease-out;
-}
-
-.hidden {
-  opacity: 0;
-  transition: opacity .3s ease-out;
+  color: grey;
 }
 
 @media (min-width: 576px) {
