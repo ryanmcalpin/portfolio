@@ -11,15 +11,13 @@
 }
 
 nav {
-  background: #ededed !important;
+  background: $main !important;
   border-bottom: $border solid 1px;
-  // border-bottom: #e0e0e0 solid 1px;
 }
 
 nav button {
-  background: #f7f7f7 !important;
+  background: lighten($main, 10%) !important;
   border-color: $border;
-  // border-color: #c1c1c1;
 }
 
 #ryan {
