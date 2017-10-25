@@ -1,40 +1,42 @@
-<div id="route-title-container" [ngClass]="collapsedState">
-  <p *ngIf="checkNav('/')">Home</p>
-  <p *ngIf="checkNav('/projects')">Projects</p>
-  <p *ngIf="checkNav('/blog')">Blog</p>
-  <p *ngIf="checkNav('/about')">About</p>
-  <p *ngIf="checkNav('/contact')">Contact</p>
-</div>
-
-<div id="ryan">
-  <a href="/portfolio">Ryan McAlpin</a>
-</div>
-
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <button id="nav-button" class="navbar-toggler clickable collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="checkCollapsed()">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse items" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item" [ngClass]="checkNav('/')">
-        <a class="nav-link" href="/portfolio">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item" [ngClass]="checkNav('/projects')">
-        <a class="nav-link" href="/portfolio/projects">Projects</a>
-      </li>
-      <li class="nav-iten" [ngClass]="checkNav('/blog')">
-        <a class="nav-link" href="/portfolio/blog">Blog</a>
-      </li>
-      <li class="nav-item" [ngClass]="checkNav('/about')">
-        <a class="nav-link" href="/portfolio/about">About</a>
-      </li>
-      <li class="nav-item" [ngClass]="checkNav('/contact')">
-        <a class="nav-link" href="/portfolio/contact">Contact</a>
-      </li>
-    </ul>
+<div class="fixed-top">
+  <div id="route-title-container" [ngClass]="collapsedState">
+    <p *ngIf="checkNav('/')">Home</p>
+    <p *ngIf="checkNav('/projects')">Projects</p>
+    <p *ngIf="checkNav('/blog')">Blog</p>
+    <p *ngIf="checkNav('/about')">About</p>
+    <p *ngIf="checkNav('/contact')">Contact</p>
   </div>
-</nav>
+
+  <div id="ryan">
+    <a href="/portfolio">Ryan McAlpin</a>
+  </div>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <button id="nav-button" class="navbar-toggler clickable collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="checkCollapsed()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse items" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" [ngClass]="checkNav('/')">
+          <a class="nav-link" href="/portfolio">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" [ngClass]="checkNav('/projects')">
+          <a class="nav-link" href="/portfolio/projects">Projects</a>
+        </li>
+        <li class="nav-iten" [ngClass]="checkNav('/blog')">
+          <a class="nav-link" href="/portfolio/blog">Blog</a>
+        </li>
+        <li class="nav-item" [ngClass]="checkNav('/about')">
+          <a class="nav-link" href="/portfolio/about">About</a>
+        </li>
+        <li class="nav-item" [ngClass]="checkNav('/contact')">
+          <a class="nav-link" href="/portfolio/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
 
 <div class="container body-container">
   <router-outlet></router-outlet>
