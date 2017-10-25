@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
+$main: lightgreen;
+$border: #c1c1c1;
+
 html {
   height: 100%;
 }
@@ -7,8 +10,8 @@ html {
 body {
   position: relative;
   min-height: 100%;
+  cursor: default;
 }
-
 
 .clickable:hover {
   cursor: pointer;

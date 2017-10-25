@@ -1,5 +1,8 @@
+@import "../../styles.scss";
+
 div.card {
   margin-bottom: 1em;
+  border-color: $border;
 }
 
 div.card-footer {
@@ -7,6 +10,6 @@ div.card-footer {
   margin-left: calc(100% - 15em);
   padding: .5em 1em;
   background: linear-gradient(to left, lightgrey, white);
-  border-image: linear-gradient(to left, grey, white) 1 100%;
+  border-image: linear-gradient(to left, $border, white) 1 100%;
   border-image-slice: 1;
 }
