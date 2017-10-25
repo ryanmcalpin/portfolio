@@ -18,6 +18,16 @@ nav button {
   border-color: #c1c1c1;
 }
 
+.shown {
+  opacity: 1;
+  transition: opacity .3s ease-out;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity .3s ease-out;
+}
+
 #ryan {
   text-align: right;
   right: 0;

@@ -11,10 +11,16 @@ import 'rxjs/add/operator/switchMap';
 })
 export class AppComponent {
   title = 'app';
+  collapsedState = 'shown';
 
   constructor(private router: Router) { }
 
   checkNav(nav): string {
-    return nav === this.router.url ? "active" : "";
+    return nav === this.router.url ? 'active' : '';
+  }
+
+  checkCollapsed() {
+    var el = document.getElementById('nav-button');
+    this.collapsedState = el.classList.contains('collapsed') ? 'hidden' : 'shown';
   }
 }
