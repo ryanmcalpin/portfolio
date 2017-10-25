@@ -31,11 +31,13 @@ nav button {
   &.shown {
     opacity: 1;
     transition: opacity 350ms ease-in;
+    -webkit-transition: opacity 350ms ease-in;
   }
 
   &.hidden {
     opacity: .3;
     transition: opacity 350ms ease-out;
+    -webkit-transition: opacity 350ms ease-out;
   }
 }
 
@@ -58,11 +60,13 @@ nav button {
   &.shown {
     opacity: 1;
     transition: opacity 350ms ease-in;
+    -webkit-transition: opacity 350ms ease-in;
   }
 
   &.hidden {
     opacity: 0;
     transition: opacity 350ms ease-out;
+    -webkit-transition: opacity 350ms ease-out;
   }
 }
 
