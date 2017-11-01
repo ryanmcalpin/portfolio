@@ -10,3 +10,10 @@ ul {
   list-style: circle;
   padding-left: 20px;
 }
+
+@media (min-width: 992px) {
+  .col-sm {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
