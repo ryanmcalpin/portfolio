@@ -1,10 +1,6 @@
 <div class="fixed-top">
   <div id="route-title-container" [ngClass]="collapsedState">
-    <p *ngIf="checkNav('/')">Home</p>
-    <p *ngIf="checkNav('/projects')">Projects</p>
-    <p *ngIf="checkNav('/blog')">Blog</p>
-    <p *ngIf="checkNav('/about')">About</p>
-    <p *ngIf="checkNav('/contact')">Contact</p>
+    <p>{{routeTitle}}</p>
   </div>
 
   <div id="ryan" [ngClass]="collapsedState">
