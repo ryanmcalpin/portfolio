@@ -12,12 +12,12 @@
 
 nav {
   background: $main !important;
-  border-bottom: $border solid 1px;
+  border-bottom: $lightborder solid 1px;
 }
 
 nav button {
   background: lighten($main, 10%) !important;
-  border-color: $border;
+  border-color: $lightborder;
 }
 
 #ryan {

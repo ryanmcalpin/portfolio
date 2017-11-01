@@ -8,7 +8,7 @@
   background: $main;
   text-align: center;
   padding: .5em;
-  // border-top: $border solid 1px;
+  border-top: $lightborder solid 1px;
 }
 
 svg {
@@ -25,5 +25,16 @@ a {
   display: inline-block;
   height: 2em;
   vertical-align: middle;
-  margin: .5em calc(100% / 40);
+  margin: 8px auto;
+}
+
+div.col-2 {
+  padding: 0px 10px;
+  height: auto;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+  max-width: 700px;
 }
