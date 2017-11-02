@@ -36,8 +36,10 @@ nav button {
   right: 0;
   position: absolute;
   z-index: 10;
-  margin-top: 16px + $navFontAdjust;
+  margin-top: 16px;
   margin-right: 16px;
+  font-family: $titleFont;
+  font-size: 1.25em;
 
   &.shown {
     opacity: 1;
