@@ -1,5 +1,7 @@
 @import "../styles.scss";
 
+$navFontAdjust: 3px;
+
 .items {
   align-self: baseline;
 }
@@ -20,12 +22,21 @@ nav button {
   border-color: $lightborder;
 }
 
+
+.nav-item {
+  margin-top: $navFontAdjust;
+}
+
+.nav-link {
+  padding: .5em .6em !important;
+}
+
 #ryan {
   text-align: right;
   right: 0;
   position: absolute;
   z-index: 10;
-  margin-top: 16px;
+  margin-top: 16px + $navFontAdjust;
   margin-right: 16px;
 
   &.shown {
@@ -55,7 +66,7 @@ nav button {
   position: absolute;
   float: left;
   z-index: 10;
-  margin-top: 16px;
+  margin-top: 16px + $navFontAdjust;
 
   &.shown {
     opacity: 1;
@@ -73,7 +84,7 @@ nav button {
 #route-title-container p {
   margin-bottom: 0px;
   cursor: default;
-  color: grey;
+  color: $greyFont;
 }
 
 

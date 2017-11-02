@@ -1,10 +1,10 @@
 <div class="fixed-top">
   <div id="route-title-container" [ngClass]="collapsedState">
-    <p>{{routeTitle}}</p>
+    <p class="title">{{routeTitle}}</p>
   </div>
 
   <div id="ryan" [ngClass]="collapsedState">
-    <a href="/portfolio">Ryan McAlpin</a>
+    <a href="/portfolio">Ryan&nbsp;&nbsp;&nbsp;&nbsp;McAlpin</a>
   </div>
 
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -18,16 +18,16 @@
           <a class="nav-link" href="/portfolio">Home <span class="sr-only">(current)</span></a>
         </li> -->
         <li class="nav-item" [ngClass]="checkNav('/about')">
-          <a class="nav-link" href="/portfolio/about">About</a>
+          <a class="nav-link title" href="/portfolio/about">About</a>
         </li>
         <li class="nav-item" [ngClass]="checkNav('/projects')">
-          <a class="nav-link" href="/portfolio/projects">Projects</a>
+          <a class="nav-link title" href="/portfolio/projects">Projects</a>
         </li>
-        <li class="nav-iten" [ngClass]="checkNav('/blog')">
-          <a class="nav-link" href="/portfolio/blog">Blog</a>
+        <li class="nav-item" [ngClass]="checkNav('/blog')">
+          <a class="nav-link title" href="/portfolio/blog">Blog</a>
         </li>
         <li class="nav-item" [ngClass]="checkNav('/contact')">
-          <a class="nav-link" href="/portfolio/contact">Contact</a>
+          <a class="nav-link title" href="/portfolio/contact">Contact</a>
         </li>
       </ul>
     </div>
