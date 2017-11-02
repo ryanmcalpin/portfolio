@@ -13,6 +13,24 @@ div.card-footer {
   border-top: none;
 }
 
+// "UNDER CONSTRUCTION"
+#caution {
+  height: 50px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+.inline {
+  h2, p {
+    display: inline-block;
+  }
+  p {
+    position: absolute;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+}
+
 @media (min-width: 480px) {
   div.card-footer {
     width: 50%;
