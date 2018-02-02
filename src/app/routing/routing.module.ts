@@ -10,7 +10,7 @@ import { BlogDetailComponent } from '../blog-detail/blog-detail.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/projects',
+    redirectTo: '/about',
     pathMatch: 'full'
   },
   {
