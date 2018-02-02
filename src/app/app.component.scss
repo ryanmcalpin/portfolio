@@ -14,7 +14,6 @@ $navFontAdjust: 3px;
 
 nav {
   background: $main !important;
-  border-bottom: $lightborder solid 1px;
 }
 
 nav button {
@@ -22,6 +21,11 @@ nav button {
   border-color: $lightborder;
 }
 
+#navShadow {
+  height: 2.75em;
+  width: 100%;
+  background: linear-gradient(to bottom, darken($main, 5%), rgba(0, 0, 0, 0));
+}
 
 .nav-item {
   margin-top: $navFontAdjust;
