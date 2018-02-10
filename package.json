@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build.prod": "ng build --prod --base-href /https://ryanmcalpin.github.io/portfolio/",
+    "build.prod": "ng build --prod --base-href \"https://ryanmcalpin.github.io/portfolio/\"",
     "deploy.prod": "ngh --repo=https://github.com/ryanmcalpin/portfolio.git"
   },
   "private": true,
