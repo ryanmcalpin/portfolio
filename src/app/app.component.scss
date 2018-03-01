@@ -25,9 +25,9 @@ nav button {
   height: 2.75em;
   width: 100%;
   background-color: rgba(0,0,0,0);
+  background: linear-gradient(to bottom, darken($main, 5%), rgba(0, 0, 0, 0));
   background: -webkit-linear-gradient(bottom, darken($main, 5%), rgba(0, 0, 0, 0));
   background: -webkit-linear-gradient(270deg, darken($main, 5%), rgba(0, 0, 0, 0));
-  background: linear-gradient(to bottom, darken($main, 5%), rgba(0, 0, 0, 0));
 }
 
 .nav-item {
