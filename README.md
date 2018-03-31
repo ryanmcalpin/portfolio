@@ -1,7 +1,7 @@
 # My Personal Portfolio
 #### A fully responsive website made with Angular and Bootstrap
 
-<a href="https://ryanmcalpin.github.io/portfolio/projects">Live Version</a>
+<a href="https://ryanmcalpin.github.io/portfolio">Live Version</a>
 
 ### Improvements
 * Convert About, Projects, and Contact pages to one scrolling page
